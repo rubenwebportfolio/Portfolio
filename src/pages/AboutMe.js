@@ -4,7 +4,7 @@ export function AboutMe({ language }) {
   return (
     <div>
       <div className="flex flex-col  items-center bg-black bg-opacity-0">
-        <div className="font-bold outlineHeader text-yellow-400 dark:text-blue-500 lg:text-2xl text-xl mb-5">
+        <div className="font-bold outlineHeader text-yellow-400 dark:text-blue-500 lg:text-2xl text-lg mb-5">
           {languages[language].aboutme2}
         </div>
         <div className="bg-gradient-to-r from-white via-blue-300 to-blue-500 dark:bg-gradient-to-r dark:from-blue-900   pl-5 pr-5 pt-1 pb-1 rounded-lg font-bold w-11/12  text-black dark:text-gray-200  lg:text-md text-sm mb-5">

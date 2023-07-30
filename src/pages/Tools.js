@@ -4,7 +4,7 @@ export function Tools({ language }) {
   return (
     <div>
       <div className="flex justify-center ">
-        <div className="font-bold outlineHeader text-yellow-400  dark:text-blue-500 lg:text-2xl text-xl">
+        <div className="font-bold outlineHeader text-yellow-400  dark:text-blue-500 lg:text-2xl text-lg">
           {languages[language].tools2}
         </div>
       </div>
@@ -41,7 +41,7 @@ export function Tools({ language }) {
       </div>
 
       <div className="flex justify-center mt-10">
-        <div className="font-bold outlineHeader text-yellow-400  dark:text-blue-500 lg:text-2xl text-xl">
+        <div className="font-bold outlineHeader text-yellow-400  dark:text-blue-500 lg:text-2xl text-lg">
           {languages[language].tools3}
         </div>
       </div>

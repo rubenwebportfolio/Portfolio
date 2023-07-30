@@ -39,7 +39,7 @@ export function Dashboard({ language }) {
               }}
             ></img>
             <div className="flex justify-center">
-              <div className=" font-bold  outlineHeader2 lg:text-2xl text-lg  dark:text-slate-300 text-yellow-400 mt-4">
+              <div className=" font-bold  outlineHeader2 lg:text-2xl text-xl  dark:text-slate-300 text-yellow-400 mt-4">
                 {languages[language].aboutme}
               </div>
             </div>

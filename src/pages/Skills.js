@@ -5,7 +5,7 @@ export function Skills({ language }) {
   return (
     <div>
       <div className="flex justify-center ">
-        <div className="font-bold outlineHeader text-yellow-400  dark:text-blue-500 lg:text-2xl text-xl">
+        <div className="font-bold outlineHeader text-yellow-400  dark:text-blue-500 lg:text-2xl text-lg">
           {languages[language].skills2}
         </div>
       </div>
