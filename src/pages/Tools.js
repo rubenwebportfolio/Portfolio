@@ -51,7 +51,7 @@ export function Tools({ language }) {
           <Stars score={4.5} />
         </div>
         <div className="flex justify-between lg:w-4/12 w-10/12">
-          <div>• Wondershare Filmora 12</div>
+          <div>• Filmora 12</div>
           <Stars score={4.5} />
         </div>
         <div className="flex justify-between lg:w-4/12 w-10/12">
