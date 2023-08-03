@@ -37,7 +37,7 @@ export function Sidebar({
         } lg:w-80 w-60 bg-blue-800 dark:bg-gray-900 z-50 overflow-auto`}
       >
         <div className="flex">
-          <div className="mt-5 ml-5 font-bold outlineHeader text-yellow-400 dark:text-blue-500 lg:text-2xl pr-12 text-md ">
+          <div className="mt-5 ml-5 font-bold font-roboto1 text-gray-200 dark:text-gray-300 lg:text-2xl pr-12 text-md ">
             PORTFOLIO
           </div>
           <button
@@ -49,10 +49,10 @@ export function Sidebar({
             X
           </button>
         </div>
-        <div className=" mt-3 lg:hidden flex justify-evenly border-b-2 border-black pb-6 dark:border-gray-600">
+        <div className=" mt-3 lg:hidden flex justify-evenly border-b-2 border-blue-600 pb-6 dark:border-gray-800">
           <div
             onClick={toggleLanguage}
-            className="mt-1 font-bold  cursor-pointer text-sm  outlineHeader2 text-gray-200 hover:text-yellow-300 dark:text-gray-300 dark:hover:text-blue-400 hover:scale-125 w-12 duration-200 "
+            className="mt-1  cursor-pointer text-sm  font-roboto2 text-gray-200 hover:text-yellow-300 dark:text-gray-300 dark:hover:text-blue-400 hover:scale-125 w-12 duration-200 "
           >
             <span>{language === "ES" ? "English" : "Español"}</span>
           </div>
@@ -82,14 +82,14 @@ export function Sidebar({
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="font-bold outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+          <div className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
             <a href="mailto:inforubentrabajos@gmail.com">
               {languages[language].contact}
             </a>
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="font-bold outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+          <div className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
             <Link to="/aboutme" onClick={onClose}>
               {languages[language].aboutme}
             </Link>
@@ -97,7 +97,7 @@ export function Sidebar({
         </div>
 
         <div className="flex justify-center">
-          <div className="font-bold outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+          <div className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
             <Link to="/projects" onClick={onClose}>
               {languages[language].projects}
             </Link>
@@ -105,7 +105,7 @@ export function Sidebar({
         </div>
 
         <div className="flex justify-center">
-          <div className="font-bold outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+          <div className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
             <Link to="/skills" onClick={onClose}>
               {languages[language].skills}
             </Link>
@@ -113,7 +113,7 @@ export function Sidebar({
         </div>
 
         <div className="flex justify-center">
-          <div className="font-bold outlineHeader text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+          <div className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
             <Link to="/tools" onClick={onClose}>
               {languages[language].tools}
             </Link>

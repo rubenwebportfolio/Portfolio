@@ -6,7 +6,7 @@ export function Dashboard({ language }) {
   return (
     <div className="lg:mt-10">
       <div className="flex justify-center ">
-        <div className="flex  outlineHeader text-yellow-400 font-bold dark:text-blue-500 lg:text-2xl text-sm">
+        <div className="flex font-roboto3 font-bold  text-gray-700 dark:text-gray-300 lg:text-2xl text-sm">
           Rubén Pérez Lara | 23 años | Murcia |
           <img
             className="lg:h-8 h-4 ml-1"
@@ -16,18 +16,18 @@ export function Dashboard({ language }) {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className=" outlineHeader text-yellow-400 font-bold dark:text-blue-500 lg:text-2xl text-sm">
+        <div className=" font-roboto3 font-bold text-gray-700  dark:text-gray-300 lg:text-2xl text-sm">
           {languages[language].dev1}: 06/2021 IES Miguel Hernández
         </div>
       </div>
 
       <div className="flex justify-center">
-        <div className=" outlineHeader text-yellow-400 font-bold dark:text-blue-500 lg:text-2xl text-sm">
+        <div className=" font-roboto3 font-bold text-gray-700  dark:text-gray-300 lg:text-2xl text-sm">
           {languages[language].dev2}: 06/2023 IES Ingeniero de la Cierva
         </div>
       </div>
       <div className="mt-5 lg:mt-14 grid lg:flex grid-cols-2 lg:gap-10 gap-5 lg:justify-center justify-center">
-        <div className=" hover:animate-pulse hover:scale-110 duration-200 lg:ml-0 ml-10 lg:mr-0  mt-1 bg-gray-100 rounded-lg dark:bg-blue-900 dark:border-2 dark:border-black ">
+        <div className="shadow-2xl hover:animate-pulse hover:scale-110 duration-200 lg:ml-0 ml-10 lg:mr-0  mt-1 bg-blue-600 rounded-lg dark:bg-gray-900  ">
           <Link to="/aboutme">
             <img
               className="h-28 lg:pb-0 pb-1 w-full"
@@ -39,14 +39,14 @@ export function Dashboard({ language }) {
               }}
             ></img>
             <div className="flex justify-center">
-              <div className=" font-bold  outlineHeader2 lg:text-2xl text-xl  dark:text-slate-300 text-yellow-400 mt-4">
+              <div className=" font-roboto1 lg:text-2xl text-xl  dark:text-slate-300 text-white mt-4">
                 {languages[language].aboutme}
               </div>
             </div>
           </Link>
         </div>
 
-        <div className="hover:animate-pulse hover:scale-110 duration-200 lg:mr-0 mr-10 lg:ml-0 pb-10  mt-1 bg-gray-100 dark:bg-blue-900 dark:border-2 dark:border-black rounded-lg ">
+        <div className="shadow-2xl hover:animate-pulse hover:scale-110 duration-200 lg:mr-0 mr-10 lg:ml-0 pb-10  mt-1 bg-blue-600 dark:bg-gray-900  rounded-lg ">
           <Link to="/projects">
             <img
               className="h-28 lg:pb-0 pb-1 w-full"
@@ -59,14 +59,14 @@ export function Dashboard({ language }) {
             ></img>
 
             <div className="flex justify-center ">
-              <div className="font-bold  outlineHeader2 lg:text-2xl text-xl  dark:text-slate-300 text-yellow-400 mt-4">
+              <div className="font-roboto1 lg:text-2xl text-xl  dark:text-slate-300 text-white mt-4">
                 {languages[language].projects}
               </div>
             </div>
           </Link>
         </div>
 
-        <div className="hover:animate-pulse hover:scale-110 duration-200 lg:mr-0 ml-10 lg:ml-0  pb-10 lg:mt-1 bg-gray-100 rounded-lg dark:bg-blue-900 dark:border-2 dark:border-black ">
+        <div className="shadow-2xl hover:animate-pulse hover:scale-110 duration-200 lg:mr-0 ml-10 lg:ml-0  pb-10 lg:mt-1 bg-blue-600 rounded-lg dark:bg-gray-900  ">
           <Link to="/skills">
             <img
               className="h-28  w-full"
@@ -79,14 +79,14 @@ export function Dashboard({ language }) {
             ></img>
 
             <div className="flex justify-center">
-              <div className="font-bold  outlineHeader2 lg:text-2xl text-xl  dark:text-slate-300 text-yellow-400 mt-4">
+              <div className="font-roboto1 lg:text-2xl text-xl  dark:text-slate-300 text-white mt-4">
                 {languages[language].skills}
               </div>
             </div>
           </Link>
         </div>
 
-        <div className="lg:mt-1 hover:animate-pulse hover:scale-110 duration-200 lg:ml-0 lg:mr-0 mr-10 bg-gray-100  rounded-lg dark:bg-blue-900 dark:border-2 dark:border-black ">
+        <div className="shadow-2xl lg:mt-1 hover:animate-pulse hover:scale-110 duration-200 lg:ml-0 lg:mr-0 mr-10 bg-blue-600  rounded-lg dark:bg-gray-900  ">
           <Link to="/tools">
             <img
               className="h-28 w-full"
@@ -98,7 +98,7 @@ export function Dashboard({ language }) {
               }}
             ></img>
             <div className="flex justify-center">
-              <div className="font-bold  outlineHeader2 lg:text-2xl text-xl dark:text-slate-300 text-yellow-400 mt-4">
+              <div className="font-roboto1 lg:text-2xl text-xl dark:text-slate-300 text-white mt-4">
                 {languages[language].tools}
               </div>
             </div>

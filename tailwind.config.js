@@ -10,6 +10,9 @@ module.exports = {
     extend: {
       fontFamily: {
         lilita: ["Lilita One", "sans-serif"],
+        roboto1: ["Roboto-Bold", "sans-serif"],
+        roboto2: ["Roboto-Regular", "sans-serif"],
+        roboto3: ["Roboto-Light", "sans-serif"],
       },
     },
   },

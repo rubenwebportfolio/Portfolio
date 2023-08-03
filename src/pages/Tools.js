@@ -4,12 +4,12 @@ export function Tools({ language }) {
   return (
     <div>
       <div className="flex justify-center ">
-        <div className="font-bold outlineHeader text-yellow-400  dark:text-blue-500 lg:text-2xl text-lg">
+        <div className="font-roboto1 text-black  dark:text-white lg:text-2xl text-lg">
           {languages[language].tools2}
         </div>
       </div>
 
-      <div className="flex flex-col items-center font-bold mt-10 dark:text-gray-300">
+      <div className="flex flex-col items-center font-roboto2 mt-10 dark:text-gray-300">
         <div className="flex justify-between lg:w-4/12 w-10/12">
           <div>• Visual Studio Code</div>
           <Stars score={4} />
@@ -41,11 +41,11 @@ export function Tools({ language }) {
       </div>
 
       <div className="flex justify-center mt-10">
-        <div className="font-bold outlineHeader text-yellow-400  dark:text-blue-500 lg:text-2xl text-lg">
+        <div className="font-roboto1 text-black  dark:text-white lg:text-2xl text-lg">
           {languages[language].tools3}
         </div>
       </div>
-      <div className="flex flex-col items-center font-bold mt-10 dark:text-gray-300">
+      <div className="flex flex-col items-center font-roboto2 mt-10 dark:text-gray-300">
         <div className="flex justify-between lg:w-4/12 w-10/12">
           <div>• Power Director</div>
           <Stars score={4.5} />

@@ -33,9 +33,7 @@ export const languages = {
     y dispuesto a aprender. ¡Contáctame si tienes preguntas!`,
     project1: `1. (Proyecto de Fin de Grado) Convertir Bootstrap a Tailwind CSS:
     con CDN y simplificado (mi parte).`,
-    project2: `2. (Proyecto de Fin de Grado) Convertir Bootstrap a Tailwind CSS:
-    página web completa en grupo.`,
-    project3: `3. Portfolio creado con HTML, CSS + Tailwind CSS, JavaScript + React.`,
+    project2: `2. Portfolio creado con HTML, CSS + Tailwind CSS, JavaScript + React.`,
   },
   EN: {
     created: "© Created by Rubén Pérez Lara",
@@ -71,7 +69,6 @@ export const languages = {
     and willing to learn. Contact me if you have questions!`,
     project1: `1. (Final Degree Project) Convert Bootstrap to Tailwind CSS:
     with CDN and simplified (my part).`,
-    project2: `2. (Final Degree Project) Convert Bootstrap to Tailwind CSS: complete web page in group.`,
-    project3: `3. Portfolio created with HTML, CSS + Tailwind CSS, JavaScript + React.`,
+    project2: `2. Portfolio created with HTML, CSS + Tailwind CSS, JavaScript + React.`,
   },
 };

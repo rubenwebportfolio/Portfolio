@@ -9,13 +9,11 @@ export function Stars({ score }) {
   let stars = [];
   for (let i = 0; i < 5; i++) {
     if (i < Math.floor(score)) {
-      stars.push(<FontAwesomeIcon icon={fasStar} color="yellow" key={i} />);
+      stars.push(<FontAwesomeIcon icon={fasStar} color="gold" key={i} />);
     } else if (i < score) {
-      stars.push(
-        <FontAwesomeIcon icon={faStarHalfAlt} color="yellow" key={i} />
-      );
+      stars.push(<FontAwesomeIcon icon={faStarHalfAlt} color="gold" key={i} />);
     } else {
-      stars.push(<FontAwesomeIcon icon={farStar} color="white" key={i} />);
+      stars.push(<FontAwesomeIcon icon={farStar} color="orange" key={i} />);
     }
   }
   return <div>{stars}</div>;

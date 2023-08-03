@@ -26,13 +26,11 @@ export function Header({ language, setLanguage }) {
       if (!isSelected) {
         document.body.classList.remove("dark");
 
-        document.body.style.backgroundImage =
-          "linear-gradient(to right, #6CACFC, #1E67C3)";
+        document.body.style.backgroundColor = "#f2f7ff";
       } else {
         document.body.classList.add("dark");
 
-        document.body.style.backgroundImage =
-          "linear-gradient(to right, #26303C, #0E233C)";
+        document.body.style.backgroundColor = "#1e1e2d";
       }
     });
   }, [isSelected]);
@@ -52,20 +50,20 @@ export function Header({ language, setLanguage }) {
   return (
     <div
       id="website"
-      className="dark:bg-gray-900 bg-blue-600 shadow-lg flex justify-between mb-5"
+      className="bg-blue-600 dark:bg-gray-900 shadow-md flex justify-between mb-5"
     >
-      <div className="mb-8  outlineHeader lg:text-3xl font-bold lg:ml-14 ml-8 mt-8 text-gray-200 dark:text-gray-300 hover:scale-110 hover:text-yellow-400 hover:dark:text-gray-200 duration-300 cursor-pointer">
+      <div className="mb-8 font-roboto1 lg:text-3xl lg:ml-14 ml-8 mt-8 text-white dark:text-gray-300 hover:scale-110 hover:text-yellow-400 hover:dark:text-gray-200 duration-300 cursor-pointer">
         <Link to="/"> PORTFOLIO</Link>
       </div>
       <div className="flex items-center lg:space-x-10 space-x-3 lg:mr-16 mr-8 ">
         <a href="mailto:inforubentrabajos@gmail.com">
-          <div className="cursor-pointer bg-blue-500 dark:bg-blue-700 pr-2 pl-2 rounded-lg lg:text-lg  outlineHeader2 font-bold text-gray-200 hover:text-yellow-300  dark:text-gray-200 hover:scale-125 duration-300">
+          <div className="cursor-pointer bg-blue-500 dark:bg-blue-950 pr-2 pl-2 rounded-lg lg:text-lg   font-roboto1 text-gray-200 hover:text-yellow-300  dark:text-gray-200 hover:scale-125 duration-300">
             {languages[language].contact}
           </div>
         </a>
         <div
           onClick={toggleLanguage}
-          className="cursor-pointer  lg:text-lg  outlineHeader2 font-bold text-gray-200 hover:text-yellow-300  dark:text-gray-200 hover:scale-125 duration-300"
+          className="cursor-pointer  lg:text-lg font-roboto1 text-gray-200 hover:text-yellow-300  dark:text-gray-200 hover:scale-125 duration-300"
         >
           <span className="lg:inline hidden">
             {language === "ES" ? "English" : "Español"}
@@ -98,7 +96,7 @@ export function Header({ language, setLanguage }) {
         <img
           onClick={handleToggleSidebar}
           className="cursor-pointer flex lg:w-8 lg:h-8 w-6 h-6 dark:pt-2 dark:pb-2 
-          duration-300 hover:scale-125 dark:bg-white dark:rounded"
+          duration-300 hover:scale-125 dark:bg-gray-200 dark:rounded"
           src={"images/burger.svg"}
           alt="sidebar"
         />
