@@ -5,29 +5,11 @@ import("preline");
 export function Dashboard({ language }) {
   return (
     <div className="lg:mt-10">
-      <div className="flex justify-center ">
-        <div className="flex font-roboto3 font-bold  text-gray-700 dark:text-gray-300 lg:text-2xl text-sm">
-          Rubén Pérez Lara | 23 años | Murcia |
-          <img
-            className="lg:h-8 h-4 ml-1"
-            src="/images/spain.png"
-            alt="spain"
-          ></img>
-        </div>
-      </div>
-      <div className="flex justify-center">
-        <div className=" font-roboto3 font-bold text-gray-700  dark:text-gray-300 lg:text-2xl text-sm">
-          {languages[language].dev1}: 06/2021 IES Miguel Hernández
-        </div>
-      </div>
-
-      <div className="flex justify-center">
-        <div className=" font-roboto3 font-bold text-gray-700  dark:text-gray-300 lg:text-2xl text-sm">
-          {languages[language].dev2}: 06/2023 IES Ingeniero de la Cierva
-        </div>
-      </div>
       <div className="mt-5 lg:mt-14 grid lg:flex grid-cols-2 lg:gap-10 gap-5 lg:justify-center justify-center">
-        <div className="shadow-2xl hover:animate-pulse hover:scale-110 duration-200 lg:ml-0 ml-10 lg:mr-0  mt-1 bg-blue-600 rounded-lg dark:bg-gray-900  ">
+        <div
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="shadow-2xl hover:animate-pulse hover:scale-110 duration-200 lg:ml-0 ml-10 lg:mr-0  mt-1 bg-blue-600 rounded-lg dark:bg-gray-900  "
+        >
           <Link to="/aboutme">
             <img
               className="h-28 lg:pb-0 pb-1 w-full"
@@ -46,7 +28,10 @@ export function Dashboard({ language }) {
           </Link>
         </div>
 
-        <div className="shadow-2xl hover:animate-pulse hover:scale-110 duration-200 lg:mr-0 mr-10 lg:ml-0 pb-10  mt-1 bg-blue-600 dark:bg-gray-900  rounded-lg ">
+        <div
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="shadow-2xl hover:animate-pulse hover:scale-110 duration-200 lg:mr-0 mr-10 lg:ml-0 pb-10  mt-1 bg-blue-600 dark:bg-gray-900  rounded-lg "
+        >
           <Link to="/projects">
             <img
               className="h-28 lg:pb-0 pb-1 w-full"
@@ -66,7 +51,10 @@ export function Dashboard({ language }) {
           </Link>
         </div>
 
-        <div className="shadow-2xl hover:animate-pulse hover:scale-110 duration-200 lg:mr-0 ml-10 lg:ml-0  pb-10 lg:mt-1 bg-blue-600 rounded-lg dark:bg-gray-900  ">
+        <div
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="shadow-2xl hover:animate-pulse hover:scale-110 duration-200 lg:mr-0 ml-10 lg:ml-0  pb-10 lg:mt-1 bg-blue-600 rounded-lg dark:bg-gray-900  "
+        >
           <Link to="/skills">
             <img
               className="h-28  w-full"
@@ -86,7 +74,10 @@ export function Dashboard({ language }) {
           </Link>
         </div>
 
-        <div className="shadow-2xl lg:mt-1 hover:animate-pulse hover:scale-110 duration-200 lg:ml-0 lg:mr-0 mr-10 bg-blue-600  rounded-lg dark:bg-gray-900  ">
+        <div
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="shadow-2xl lg:mt-1 hover:animate-pulse hover:scale-110 duration-200 lg:ml-0 lg:mr-0 mr-10 bg-blue-600  rounded-lg dark:bg-gray-900  "
+        >
           <Link to="/tools">
             <img
               className="h-28 w-full"

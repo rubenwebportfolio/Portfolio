@@ -58,6 +58,11 @@ export function Skills({ language }) {
         </div>
 
         <div className="flex justify-between lg:w-4/12 w-10/12">
+          <div>• WordPress + Elementor </div>
+          <Stars score={1.5} />
+        </div>
+
+        <div className="flex justify-between lg:w-4/12 w-10/12">
           <div>• SASS (CSS) </div>
           <Stars score={1} />
         </div>

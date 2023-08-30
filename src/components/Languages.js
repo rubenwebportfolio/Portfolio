@@ -1,6 +1,6 @@
 export const languages = {
   ES: {
-    created: "© Creado por Rubén Pérez Lara",
+    created: "© 2023 - Rubén Pérez Lara",
     donations: "Donaciones",
     dev1: "Técnico Informático",
     dev2: "Desarrollador Web",
@@ -36,7 +36,7 @@ export const languages = {
     project2: `2. Portfolio creado con HTML, CSS + Tailwind CSS, JavaScript + React.`,
   },
   EN: {
-    created: "© Created by Rubén Pérez Lara",
+    created: "© 2023 - Rubén Pérez Lara",
     donations: "Donations",
     dev1: "Computer Technician",
     dev2: "Web Developer",

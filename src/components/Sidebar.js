@@ -82,14 +82,20 @@ export function Sidebar({
           </div>
         </div>
         <div className="flex justify-center">
-          <div className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+          <div
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white"
+          >
             <a href="mailto:inforubentrabajos@gmail.com">
               {languages[language].contact}
             </a>
           </div>
         </div>
         <div className="flex justify-center">
-          <div className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+          <div
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white"
+          >
             <Link to="/aboutme" onClick={onClose}>
               {languages[language].aboutme}
             </Link>
@@ -97,7 +103,10 @@ export function Sidebar({
         </div>
 
         <div className="flex justify-center">
-          <div className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+          <div
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white"
+          >
             <Link to="/projects" onClick={onClose}>
               {languages[language].projects}
             </Link>
@@ -105,7 +114,10 @@ export function Sidebar({
         </div>
 
         <div className="flex justify-center">
-          <div className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+          <div
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white"
+          >
             <Link to="/skills" onClick={onClose}>
               {languages[language].skills}
             </Link>
@@ -113,7 +125,10 @@ export function Sidebar({
         </div>
 
         <div className="flex justify-center">
-          <div className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white">
+          <div
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className=" font-roboto3 text-white dark:text-gray-300 mt-8 text-xl hover:scale-125  duration-200 dark:hover:text-white"
+          >
             <Link to="/tools" onClick={onClose}>
               {languages[language].tools}
             </Link>
