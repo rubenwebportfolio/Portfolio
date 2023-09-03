@@ -36,7 +36,7 @@ export const languages = {
     project2: `2. Portfolio creado con HTML, CSS + Tailwind CSS, JavaScript + React.`,
     project3: `3. Portfolio creado con WordPress + Elementor.`,
     wordpress1: `PORTFOLIO WORDPRESS`,
-    wordpress2: `Por el momento por el tema de hostings gratuitos y lo limitados que están, mostraré varios vídeos de como está la web con WordPress en localhost con XAMPP. Más adelante los proyectos estarán en un hosting de pago y no en GitHub Pages.`,
+    wordpress2: `Por el momento, por el tema de hostings gratuitos y lo limitados que están, mostraré varios vídeos de como está la web con WordPress en localhost con XAMPP. Más adelante los proyectos estarán en un hosting de pago y no en GitHub Pages.`,
     wordpress3: `Se ha utilizado para la web el editor de WordPress, la plantilla Astra (casi todo eliminado para practicar) y el plugin Elementor. Otros plugins que he instalado ha sido Wordfence para mejorar la seguridad de la página, W3 Total Cache para optimizar lo máximo posible la web y All-in-One WP Migration para exportar o importar todo el proyecto de WordPress local a otro WordPress local o WordPress online.`,
   },
   EN: {
@@ -76,5 +76,7 @@ export const languages = {
     project2: `2. Portfolio created with HTML, CSS + Tailwind CSS, JavaScript + React.`,
     project3: `3. Portfolio created with WordPress + Elementor.`,
     wordpress1: `PORTFOLIO WORDPRESS`,
+    wordpress2: `At the moment, due to the issue of free hosting and how limited they are, I will show several videos of how the website is with WordPress on localhost with XAMPP. Later the projects will be on paid hosting and not on GitHub Pages.`,
+    wordpress3: `The WordPress editor, the Astra template (almost everything removed for practice) and the Elementor plugin have been used for the website. Other plugins that I have installed have been Wordfence to improve the security of the page, W3 Total Cache to optimize the website as much as possible and All-in-One WP Migration to export or import the entire local WordPress project to another local WordPress or WordPress on-line.`,
   },
 };
