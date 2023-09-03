@@ -8,6 +8,7 @@ import { AboutMe } from "./pages/AboutMe";
 import { Projects } from "./pages/Projects";
 import { Skills } from "./pages/Skills";
 import { Tools } from "./pages/Tools";
+import { Wordpress } from "./pages/Wordpress";
 
 export function App() {
   const [language, setLanguage] = useState(
@@ -23,6 +24,10 @@ export function App() {
         <Route path="projects" element={<Projects language={language} />} />
         <Route path="skills" element={<Skills language={language} />} />
         <Route path="tools" element={<Tools language={language} />} />
+        <Route
+          path="projects/wordpress"
+          element={<Wordpress language={language} />}
+        />
         <Route path="/" element={<Dashboard language={language} />} />
       </Routes>
       <Footer language={language} />

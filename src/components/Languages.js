@@ -34,6 +34,10 @@ export const languages = {
     project1: `1. (Proyecto de Fin de Grado) Convertir Bootstrap a Tailwind CSS:
     con CDN y simplificado (mi parte).`,
     project2: `2. Portfolio creado con HTML, CSS + Tailwind CSS, JavaScript + React.`,
+    project3: `3. Portfolio creado con WordPress + Elementor.`,
+    wordpress1: `PORTFOLIO WORDPRESS`,
+    wordpress2: `Por el momento por el tema de hostings gratuitos y lo limitados que están, mostraré varios vídeos de como está la web con WordPress en localhost con XAMPP. Más adelante los proyectos estarán en un hosting de pago y no en GitHub Pages.`,
+    wordpress3: `Se ha utilizado para la web el editor de WordPress, la plantilla Astra (casi todo eliminado para practicar) y el plugin Elementor. Otros plugins que he instalado ha sido Wordfence para mejorar la seguridad de la página, W3 Total Cache para optimizar lo máximo posible la web y All-in-One WP Migration para exportar o importar todo el proyecto de WordPress local a otro WordPress local o WordPress online.`,
   },
   EN: {
     created: "© 2023 - Rubén Pérez Lara",
@@ -70,5 +74,7 @@ export const languages = {
     project1: `1. (Final Degree Project) Convert Bootstrap to Tailwind CSS:
     with CDN and simplified (my part).`,
     project2: `2. Portfolio created with HTML, CSS + Tailwind CSS, JavaScript + React.`,
+    project3: `3. Portfolio created with WordPress + Elementor.`,
+    wordpress1: `PORTFOLIO WORDPRESS`,
   },
 };

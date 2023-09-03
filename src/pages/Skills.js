@@ -33,8 +33,14 @@ export function Skills({ language }) {
         </div>
         <div className="flex justify-between lg:w-4/12 w-10/12">
           <div>• Bootstrap (CSS)</div>
+          <Stars score={3.5} />
+        </div>
+
+        <div className="flex justify-between lg:w-4/12 w-10/12">
+          <div>• WordPress + Elementor </div>
           <Stars score={3} />
         </div>
+
         <div className="flex justify-between lg:w-4/12 w-10/12">
           <div>• PHP</div>
           <Stars score={3} />
@@ -55,11 +61,6 @@ export function Skills({ language }) {
         <div className="flex justify-between lg:w-4/12 w-10/12">
           <div>• React </div>
           <Stars score={2.5} />
-        </div>
-
-        <div className="flex justify-between lg:w-4/12 w-10/12">
-          <div>• WordPress + Elementor </div>
-          <Stars score={1.5} />
         </div>
 
         <div className="flex justify-between lg:w-4/12 w-10/12">
