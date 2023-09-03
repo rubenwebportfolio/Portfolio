@@ -13,7 +13,7 @@ export function Projects({ language }) {
       <div className="flex flex-col">
         <div className="flex justify-center mt-5">
           <div>
-            <div className="lg:mr-10 lg:ml-14 ml-2 just w-44 mt-7 font-roboto2 dark:text-gray-200">
+            <div className="lg:mr-10 lg:ml-14 ml-2 just w-44 mt-7 font-roboto2 lg:text-lg text-sm dark:text-gray-200">
               {languages[language].project1}
 
               <a
@@ -26,7 +26,7 @@ export function Projects({ language }) {
           </div>
           <a className="w-5/12" href="https://tailwind.rubenportfolio.com/">
             <img
-              className="cursor-pointer duration-200 hover:animate-pulse h-60 w-full"
+              className="cursor-pointer duration-200 hover:animate-pulse lg:h-60 h-36 w-full"
               src="/images/project1Image.png"
               alt="project 1"
             ></img>
@@ -35,7 +35,7 @@ export function Projects({ language }) {
 
         <div className="flex justify-center mt-5">
           <div>
-            <div className="lg:mr-10 lg:ml-14 ml-2 just w-44 mt-7 font-roboto2 dark:text-gray-200 ">
+            <div className="lg:mr-10 lg:ml-14 ml-2 just w-44 mt-7 font-roboto2 lg:text-lg text-sm dark:text-gray-200 ">
               {languages[language].project2}
 
               <a
@@ -48,7 +48,7 @@ export function Projects({ language }) {
           </div>
           <a className="w-5/12" href="https://rubenportfolio.com/">
             <img
-              className="cursor-pointer duration-200 hover:animate-pulse h-60 w-full"
+              className="cursor-pointer duration-200 hover:animate-pulse lg:h-60 h-36 w-full"
               src="/images/project3Image.png"
               alt="project 2"
             ></img>
@@ -57,7 +57,7 @@ export function Projects({ language }) {
 
         <div className="flex justify-center mt-5">
           <div>
-            <div className="lg:mr-10 lg:ml-14 ml-2 just w-44 mt-7 font-roboto2 dark:text-gray-200 ">
+            <div className="lg:mr-10 lg:ml-14 ml-2 just w-44 mt-7 font-roboto2 lg:text-lg text-sm dark:text-gray-200 ">
               {languages[language].project3}
 
               <Link to="/projects/wordpress">
@@ -76,7 +76,7 @@ export function Projects({ language }) {
             <Link to="/projects/wordpress">
               <img
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                className="cursor-pointer duration-200 hover:animate-pulse h-60 w-full"
+                className="cursor-pointer duration-200 hover:animate-pulse lg:h-60 h-36 w-full"
                 src="/images/wordpressImage.png"
                 alt="project 3"
               ></img>
