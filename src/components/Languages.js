@@ -31,7 +31,7 @@ export const languages = {
     conversation4: `Mi objetivo es utilizar mis habilidades para crear soluciones web
     eficientes y atractivas. Siempre estoy abierto a nuevas oportunidades
     y dispuesto a aprender. ¡Contáctame si tienes preguntas!`,
-    project1: `1. (Proyecto de Fin de Grado) Convertir Bootstrap a Tailwind.`,
+    project1: `1. (Proyecto de Fin de Grado) Convertir Bootstrap a Tailwind CSS.`,
     project2: `2. Portfolio creado con HTML, CSS + Tailwind CSS, JavaScript + React.`,
     project3: `3. Portfolio creado con WordPress + Elementor.`,
     wordpress1: `PORTFOLIO WORDPRESS`,
@@ -70,7 +70,7 @@ export const languages = {
     conversation4: `My goal is to use my skills to create web solutions
     efficient and attractive. I am always open to new opportunities
     and willing to learn. Contact me if you have questions!`,
-    project1: `1. (Final Degree Project) Convert Bootstrap to Tailwind.`,
+    project1: `1. (Final Degree Project) Convert Bootstrap to Tailwind CSS.`,
     project2: `2. Portfolio created with HTML, CSS + Tailwind CSS, JavaScript + React.`,
     project3: `3. Portfolio created with WordPress + Elementor.`,
     wordpress1: `PORTFOLIO WORDPRESS`,
