@@ -14,7 +14,7 @@ export function Wordpress({ language }) {
           {languages[language].wordpress3}
         </div>
 
-        <div className="flex justify-center items-center space-x-10 mt-8">
+        <div className="lg:flex justify-center items-center lg:space-x-10 lg:space-y-0 space-y-7 lg:mt-8 mt-3">
           <video width="320" height="240" controls>
             <source src="/videos/PortfolioWP1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
