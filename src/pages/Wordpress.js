@@ -16,11 +16,11 @@ export function Wordpress({ language }) {
 
         <div className="flex justify-center items-center space-x-10 mt-8">
           <video width="320" height="240" controls>
-            <source src="/videos/portfolioWP1.mp4" type="video/mp4" />
+            <source src="../videos/portfolioWP1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <video width="320" height="240" controls>
-            <source src="/videos/portfolioWP2.mp4" type="video/mp4" />
+            <source src="../videos/portfolioWP2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
