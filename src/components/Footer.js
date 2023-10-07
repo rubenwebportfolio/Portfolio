@@ -48,26 +48,9 @@ export function Footer({ language }) {
         </div>
       </div>
       <div className=" lg:mt-20 mt-14 flex justify-center">
-        <a
-          className="hover:scale-125 duration-200"
-          href="https://ko-fi.com/rubenweb"
-        >
-          <div
-            className={`absolute font-lilita outlineHeader text-sm lg:mt-[-10px] mt-[-16px] ml-[-16px] dark:text-slate-300 text-yellow-500 ${
-              language === "EN" ? "lg:ml-2" : "lg:ml-1"
-            }`}
-          >
-            {languages[language].donations}
-          </div>
-          <img
-            className=" lg:h-20 h-8 cursor-pointer"
-            src={"/images/ko-fi.png"}
-            alt="Ko-Fi"
-          ></img>
-        </a>
         <a href="https://github.com/rubenwebportfolio">
           <img
-            className=" rounded-2xl hover:scale-125 duration-200 lg:h-20 h-9 pb-2 lg:ml-10 ml-8 cursor-pointer"
+            className=" rounded-2xl hover:scale-125 duration-200 lg:h-20 h-9 pb-2 cursor-pointer"
             src={"/images/github.png"}
             alt="gitHub"
           ></img>
