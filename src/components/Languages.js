@@ -1,6 +1,6 @@
 export const languages = {
   ES: {
-    created: "© 2023 - Rubén Pérez Lara",
+    created: "© 2024 - Rubén Pérez Lara",
     donations: "Donaciones",
     dev1: "Técnico Informático",
     dev2: "Desarrollador Web",
@@ -11,9 +11,9 @@ export const languages = {
     contact: "Contacto",
     aboutme2: "SOBRE MI",
     projects2: "PROYECTOS QUE HE REALIZADO",
-    skills2: "HABILIDADES QUE DOMINO",
-    tools2: "HERRAMIENTAS QUE DOMINO",
-    tools3: "ALTERNATIVAS QUE DOMINO",
+    skills2: "HABILIDADES",
+    tools2: "HERRAMIENTAS",
+    tools3: "ALTERNATIVAS",
     contact2: "CONTACTO",
     conversation1: `Soy Rubén Pérez Lara, un entusiasta desarrollador web de Murcia,
     España. Desde mi titulación en Informática en el IES Miguel Hernández
@@ -30,16 +30,17 @@ export const languages = {
     de Linux, así como con herramientas de diseño y multimedia.`,
     conversation4: `Mi objetivo es utilizar mis habilidades para crear soluciones web
     eficientes y atractivas. Siempre estoy abierto a nuevas oportunidades
-    y dispuesto a aprender. ¡Contáctame si tienes preguntas!`,
+    y dispuesto a aprender.`,
     project1: `1. (Proyecto de Fin de Grado) Convertir Bootstrap a Tailwind CSS.`,
     project2: `2. Portfolio creado con HTML, CSS + Tailwind CSS, JavaScript + React.`,
     project3: `3. Portfolio creado con WordPress + Elementor.`,
+    project4: `4. Tienda online Shopify.`,
     wordpress1: `PORTFOLIO WORDPRESS`,
     wordpress2: `Por el momento, por el tema de hostings gratuitos y lo limitados que están, mostraré varios vídeos de como está la web con WordPress en localhost con XAMPP. Más adelante los proyectos estarán en un hosting de pago y no en GitHub Pages.`,
     wordpress3: `Se ha utilizado para la web el editor de WordPress, la plantilla Astra (casi todo eliminado para practicar) y el plugin Elementor. Otros plugins que he instalado ha sido Wordfence para mejorar la seguridad de la página, W3 Total Cache para optimizar lo máximo posible la web y All-in-One WP Migration para exportar o importar todo el proyecto de WordPress local a otro WordPress local o WordPress online.`,
   },
   EN: {
-    created: "© 2023 - Rubén Pérez Lara",
+    created: "© 2024 - Rubén Pérez Lara",
     donations: "Donations",
     dev1: "Computer Technician",
     dev2: "Web Developer",
@@ -50,9 +51,9 @@ export const languages = {
     contact: "Contact",
     aboutme2: "ABOUT ME",
     projects2: "PROJECTS I HAVE DONE",
-    skills2: "SKILLS THAT I DOMINATE",
-    tools2: "TOOLS THAT I DOMINATE",
-    tools3: "ALTERNATIVES THAT I DOMINATE",
+    skills2: "SKILLS",
+    tools2: "TOOLS",
+    tools3: "ALTERNATIVES",
     contact2: "CONTACT",
     conversation1: `I'm Rubén Pérez Lara, an enthusiastic web developer from Murcia,
     Spain. Since my degree in Computer Science at the IES Miguel Hernández
@@ -69,10 +70,11 @@ export const languages = {
     Linux, as well as design and multimedia tools.`,
     conversation4: `My goal is to use my skills to create web solutions
     efficient and attractive. I am always open to new opportunities
-    and willing to learn. Contact me if you have questions!`,
+    and willing to learn.`,
     project1: `1. (Final Degree Project) Convert Bootstrap to Tailwind CSS.`,
     project2: `2. Portfolio created with HTML, CSS + Tailwind CSS, JavaScript + React.`,
     project3: `3. Portfolio created with WordPress + Elementor.`,
+    project4: `4. Online store Shopify.`,
     wordpress1: `PORTFOLIO WORDPRESS`,
     wordpress2: `At the moment, due to the issue of free hosting and how limited they are, I will show several videos of how the website is with WordPress on localhost with XAMPP. Later the projects will be on paid hosting and not on GitHub Pages.`,
     wordpress3: `The WordPress editor, the Astra template (almost everything removed for practice) and the Elementor plugin have been used for the website. Other plugins that I have installed have been Wordfence to improve the security of the page, W3 Total Cache to optimize the website as much as possible and All-in-One WP Migration to export or import the entire local WordPress project to another local WordPress or WordPress on-line.`,

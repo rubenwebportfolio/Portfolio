@@ -24,6 +24,10 @@ export function Skills({ language }) {
           <Stars score={4.5} />
         </div>
         <div className="flex justify-between lg:w-4/12 w-10/12">
+          <div>• Shopify</div>
+          <Stars score={4} />
+        </div>
+        <div className="flex justify-between lg:w-4/12 w-10/12">
           <div>• JavaScript</div>
           <Stars score={3.5} />
         </div>

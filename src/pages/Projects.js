@@ -83,6 +83,31 @@ export function Projects({ language }) {
             </Link>
           </span>
         </div>
+
+        <div className="flex justify-center mt-5">
+          <div>
+            <div className="lg:mr-10 lg:ml-14 ml-2 just w-44 mt-7 font-roboto2 lg:text-lg text-sm dark:text-gray-200 ">
+              {languages[language].project4}
+
+              <a
+                className="ml-1 pr-1 pl-1  bg-blue-400 rounded-lg "
+                href="https://www.uventic.com/"
+              >
+                LINK
+              </a>
+            </div>
+          </div>
+          <span className="w-5/12">
+            <Link to="/projects/wordpress">
+              <img
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                className="cursor-pointer duration-200 hover:animate-pulse lg:h-60 h-36 w-full"
+                src="/images/projectShopifyImage.png"
+                alt="project 3"
+              ></img>
+            </Link>
+          </span>
+        </div>
       </div>
     </div>
   );
