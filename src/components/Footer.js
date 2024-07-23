@@ -48,13 +48,6 @@ export function Footer({ language }) {
         </div>
       </div>
       <div className=" lg:mt-20 mt-14 flex justify-center">
-        <a href="https://github.com/rubenwebportfolio">
-          <img
-            className=" rounded-2xl hover:scale-125 duration-200 lg:h-20 h-9 pb-2 cursor-pointer"
-            src={"/images/github.png"}
-            alt="gitHub"
-          ></img>
-        </a>
         <a href="mailto:inforubentrabajos@gmail.com">
           <img
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
